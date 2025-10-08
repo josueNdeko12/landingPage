@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: center;
+}
+
+.overview,
+.info {
+    display: flex;
+    justify-content: center;
+}
