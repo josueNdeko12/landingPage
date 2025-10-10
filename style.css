@@ -3,7 +3,7 @@
 .info {
     display: flex;
     gap: 10px;
-    padding: 25px 40px;
+    padding: 25px 150px;
 }
 
 .quote,
@@ -20,6 +20,7 @@ body,
 .header,
 .overview {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .rectangle,
@@ -37,8 +38,22 @@ body,
     flex-direction: column;
 }
 
-.quote {
-    text-align: center;
+.quote{
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote-1,
+.quote-1-author{
+    width: 600px;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 5px auto;
+}
+
+.quote-1-author{
+    font-weight: bold;
 }
 
 .overview,
@@ -66,7 +81,7 @@ body,
 .box{
     height: 150px;
     width: 100px;
-    border: 2px solid lightskyblue;
+    border: 2px solid #3882F6;
 }
 
 .subtext{
@@ -107,4 +122,9 @@ button,
     text-align: center;
     color: white;
     background-color: #1F2937;
+}
+
+.hero{
+    font-weight: 900;
+    font-size: 48px;
 }
