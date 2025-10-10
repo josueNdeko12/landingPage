@@ -7,7 +7,8 @@ body,
     padding: 0 40px;
 }
 
-body {
+body,
+.info {
     flex-direction: column;
 }
 
@@ -26,4 +27,25 @@ body {
 
 #link-one{
     margin-left: auto;
+}
+
+.info{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.box{
+    height: 150px;
+    width: 100px;
+    border: 2px solid lightskyblue;
+}
+
+.subtext{
+    text-align: center;
+    width: 100px;
 }
