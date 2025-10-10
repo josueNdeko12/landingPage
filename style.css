@@ -7,6 +7,15 @@ body,
     padding: 0 40px;
 }
 
+.rectangle,
+.items {
+    display: flex;
+}
+
+.reduce{
+    align-self: center;
+}
+
 body,
 .info {
     flex-direction: column;
@@ -34,7 +43,6 @@ body,
 }
 
 .items{
-    display: flex;
     gap: 15px;
     justify-content: center;
 }
@@ -48,4 +56,29 @@ body,
 .subtext{
     text-align: center;
     width: 100px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle{
+    height: 75px;
+    width: 500px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    justify-content: space-around;
+}
+
+#bold{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#low-margin{
+    margin-top: 4px;
 }
