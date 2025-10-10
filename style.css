@@ -82,3 +82,7 @@ body,
 #low-margin{
     margin-top: 4px;
 }
+
+.footer{
+    text-align: center;
+}
