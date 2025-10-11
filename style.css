@@ -75,7 +75,8 @@ image {
 }
 
 .hero-secondary, 
-header {
+header,
+.links {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -150,4 +151,12 @@ button,
 .hero{
     font-weight: 900;
     font-size: 48px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.header{
+    gap: 25px;
 }
