@@ -74,6 +74,12 @@ image {
     flex: 0 0 auto;
 }
 
+.hero-secondary, 
+header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 #link-one{
     margin-left: auto;
 }
